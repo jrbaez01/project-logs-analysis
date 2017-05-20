@@ -44,3 +44,7 @@ GROUP BY day, requests;
 1. Keep calm my friend.
 2. Clone the source code in your local envarioment
 3. Enter to the code directory and run the command: ```python log_analysis.py```
+
+What log_analysis.py will do is to connect to the database
+and for each query especified in analyze.py file
+it will consult the 'news' named database and print the results in the console.
